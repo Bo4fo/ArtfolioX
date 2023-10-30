@@ -1,4 +1,7 @@
 import './Maincss/Home.css';
+import Contactform from './Contactform';
+import { FaFolderOpen, FaForumbee, FaFigma} from "react-icons/fa";
+import { PiPlugs } from "react-icons/pi";
 
 function Home() {
     const HomeStyles = {
@@ -28,6 +31,7 @@ function Home() {
                 </div>
                 <div className="button">
                     <button className='btn-style' onClick={handleButtonClick}>
+                      
                         Connect Here
                     </button>
                 </div>
@@ -40,14 +44,21 @@ function Home() {
                 </div>
 
                 <div className="box-one">
-                    <div className="box-inner">
+                    <div className="box-inner">  
+                    <span className='icon icon-large'>
+                            <FaFolderOpen/>
+                        </span>
                         <p>
                             <h3>
+                                
                                 UI & UX
                             </h3>
                         </p>
                     </div>
                     <div className="box-inner">
+                    <span className='icon icon-large'>
+                            <PiPlugs/>
+                        </span>
                         <p>
                             <h3>
                                 Design & Creative
@@ -55,6 +66,9 @@ function Home() {
                         </p>
                     </div>
                     <div className="box-inner">
+                           <span className='icon icon-large'>
+                            <FaForumbee/>
+                        </span>
                         <p>
                             <h3>
                                 Development
@@ -62,6 +76,9 @@ function Home() {
                         </p>
                     </div>
                     <div className="box-inner">
+                    <span className='icon icon-large'>
+                            <FaFigma/>
+                        </span>
                         <p>
                             <h3>
                                 Figma
@@ -70,6 +87,14 @@ function Home() {
                     </div>
 
                 </div>
+                <div className="header-two">
+                   <h3>
+                    What is your next Project?
+                   </h3>
+                </div>
+                <div className="contact-form">
+                    <Contactform/>
+                    </div>
             </div>
 
 

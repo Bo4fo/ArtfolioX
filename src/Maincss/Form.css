@@ -1,0 +1,52 @@
+
+.contactform {
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  position: relative;
+  bottom: 20px;
+}
+
+.gridform{
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  /* border: 1px solid #000000; */
+  border-radius: 5px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+textarea {
+  height: 100px;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #1628ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 15px;
+  /* margin: 1px 0; */
+  border-radius: 5px;
+  width: 103%;
+  height: 50px;
+  position: relative;
+  bottom: 10px;
+}
+
+[type="submit"]:hover  {
+    background-color: #111972;
+    
+  }
+  
+  
