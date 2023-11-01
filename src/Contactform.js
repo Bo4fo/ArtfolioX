@@ -17,9 +17,8 @@ function ContactForm() {
         <div className="contactform">
 
             <form onSubmit={handleSubmit}>
+                
                 <div className="gridform">
-
-
                     <div className='name-box mv-one'>
                         <label>
                             <input
