@@ -1,5 +1,5 @@
-import './Maincss/Home.css';
-import Contactform from './Contactform';
+import '../Maincss/Home.css';
+import Contactform from '../Components/Contactform';
 import { FaFolderOpen, FaForumbee, FaFigma } from "react-icons/fa";
 import { PiPlugs } from "react-icons/pi";
 

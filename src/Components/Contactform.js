@@ -1,4 +1,4 @@
-import './Maincss/Form.css';
+import '../Maincss/Form.css';
 import { useState } from 'react';
 // import {  MdOutlineAccountCircle} from "react-icons/md";
 
@@ -17,7 +17,6 @@ function ContactForm() {
         <div className="contactform">
 
             <form onSubmit={handleSubmit}>
-                
                 <div className="gridform">
                     <div className='name-box mv-one'>
                         <label>

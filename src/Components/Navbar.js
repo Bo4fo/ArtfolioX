@@ -1,5 +1,5 @@
 // import './App'
-import "./Maincss/Navbar.css";
+import "../Maincss/Navbar.css";
 import { MdExplore, MdMarkChatUnread } from "react-icons/md";
 import { IoBookmarks } from "react-icons/io5";
 import {FaHive, FaPuzzlePiece, FaBlog, FaPhoneAlt, FaBuffer, FaHatCowboy, FaTwitter, FaGithub  } from "react-icons/fa";
