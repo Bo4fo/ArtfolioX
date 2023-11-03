@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
-
+*{
+  text-decoration: none;
+}
 :root {
   --primary-color: #060474;
   --secondary-color: #7C8898;

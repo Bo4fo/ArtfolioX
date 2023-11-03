@@ -1,4 +1,4 @@
-import '../Maincss/Home.css';
+import '../Maincss/Explore.css';
 import Contactform from '../Components/Contactform';
 import { FaFolderOpen, FaForumbee, FaFigma } from "react-icons/fa";
 import { PiPlugs } from "react-icons/pi";
@@ -13,6 +13,7 @@ function Home() {
     const handleButtonClick = () => {
         console.log('Connect here!');
     };
+    
 
     return (
         <div className="home-container">
