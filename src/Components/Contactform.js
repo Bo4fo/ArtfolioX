@@ -10,8 +10,15 @@ function ContactForm() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert(`The name you entered was: ${name}\nThe email you entered was: ${email}\nThe message you entered was: ${message}`);
+        console.log(`The name you entered was: ${name}\nThe email you entered was: ${email}\nThe message you entered was: ${message}`);
+
+
+
+
+        
     };
+
+  
 
     return (
         <div className="contactform">

@@ -9,12 +9,14 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
+    
 }
 
 .item-container {
-    padding: 50px;
-    /* background-color: #856868; */
+    padding: 2%;
+    background-color: #856868;
     margin-bottom: 70%;
+    box-sizing: border-box;
 }
 
 .small-text h4 {

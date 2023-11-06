@@ -30,7 +30,7 @@ const Navbar = () => {
 
                 <ul>
                     <li>
-                    <Link to="/Home" style={{ textDecoration: 'none', color: 'inherit' }}>
+                    <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
 
                         <span className="icon-text">
                             <MdExplore />

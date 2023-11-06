@@ -1,7 +1,7 @@
 import '../src/Maincss/App.css';
 import Navbar from "./Components/Navbar";
 import Home from './Pages/Explore';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
@@ -13,7 +13,7 @@ import Components from './Pages/Components';
 function App() {
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <div className="Home">
@@ -39,7 +39,7 @@ function App() {
           </Switch>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

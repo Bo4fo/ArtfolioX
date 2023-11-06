@@ -12,6 +12,7 @@ body{
   background-color: var(--background-color);
   font-family: 'Ubuntu', sans-serif;
   /* scroll-behavior: smooth; */
+  
 }
 .App {
   text-align: center;
@@ -27,11 +28,7 @@ body{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* 
-.Home h1{
-  color: white;
-  text-decoration: none;
-} */
+
 
 .App-header {
   background-color: #282c34;

@@ -1,14 +1,24 @@
 import React from 'react'
 import '../Maincss/Services.css';
 
+
+
+
 function Services() {
+  const HomeStyles = {
+    fontWeight: 900,
+    color: 'white',
+    fontSize: 60,
+  };
   return (
     <div className='service-Container'>
-      <h1>Our Services</h1>
-      {/* <div className="service-item-container">
-      <h1>Services</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec diam ultr</p>
-      </div> */}
+      <div className="item-container">
+        <span className='item-header' style={HomeStyles}>
+          Developing Software Products,User Interfaces and Experience
+        </span>
+
+      </div>
+
 
     </div>
   )
