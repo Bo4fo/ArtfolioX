@@ -27,10 +27,10 @@ function App() {
             <Route path="/Contact" Components={Contact}>
               <Contact />
             </Route>
-            <Route path="/Services" Components={Blog}>
+            <Route path="/Blog" Components={Blog}>
               <Blog />
             </Route>
-            <Route path="/Services" Components={Components}>
+            <Route path="/Components" Components={Components}>
               <Components />
             </Route>
             {/* <Route path="/Services" Components={Services}>

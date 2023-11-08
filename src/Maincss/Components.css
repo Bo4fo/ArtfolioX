@@ -5,8 +5,29 @@
     width: 60%;
     position: relative;
     top: 50px;
-    background-color: #ad3636;
+    background-color: #8e7b7b;
     flex-wrap: wrap;
     align-items: center;
     margin: 0 auto;
 }
+
+
+ .grid-form {
+
+    background-color: aqua;
+    display: grid;
+    column-gap: 30px;
+    row-gap: 20px;
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  } 
+  
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    border: 1px solid rgba(0, 0, 0, 0.8);
+ width: 330px;
+ height: 150px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
