@@ -42,7 +42,6 @@ const Navbar = () => {
                     </li>
 
                     <li>
-
                         <Link to="/Services" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <span className="icon-text">
                                 <FaHive />
