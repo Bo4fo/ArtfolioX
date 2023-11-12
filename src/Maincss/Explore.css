@@ -17,6 +17,8 @@
     /* background-color: #856868; */
     margin-bottom: 70%;
     box-sizing: border-box;
+    transition: transform 0.7s ease-in-out;
+
 }
 
 .small-text h4 {

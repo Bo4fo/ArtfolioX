@@ -1,39 +1,26 @@
 import React from 'react'
 import '../Maincss/Components.css';
-import { FaFolderOpen, FaForumbee, FaFigma } from "react-icons/fa";
-import { PiPlugs } from "react-icons/pi";
-
+import { FaMicrosoft, FaDraftingCompass, FaRegKeyboard } from "react-icons/fa";
+import { PiTimer, PiDownloadLight } from "react-icons/pi";
+import { RxNotionLogo } from "react-icons/rx";
 
 
 
 
 
 function Components() {
-  //   const HomeStyles = {
-  //     fontWeight: 400,
-  //     color: 'white',
-  //     fontSize: 45,
-  //     paddingLeft: '0.8%',
-  //   };
-  //   const FontStyles = {
-  //     marginTop: '-9%',
-  //     textAlign: "center",
-  //     paddingLeft: '2%',
-  //     fontSize: 15,
-  //     color: 'white',
-  //     textAlign: 'left'
-  //   }
-  //   const FontStyles1 = {
-  //     marginTop: '-15%',
-  //     textAlign: "center",
-  //     paddingLeft: '2%',
-  //     fontSize: 15,
-  //     color: 'white',
-  //     textAlign: 'left'
-  //   }
-  //   const moveLeft ={
-  //     paddingLeft: '1%',
-  // }
+    const fontStyles = {
+      fontSize: 18,
+      color: 'white',
+   
+    }
+ 
+    const iconStyles = {
+      fontSize: 22,
+      color: 'white',
+     
+    }
+ 
 
   return (
 
@@ -47,12 +34,83 @@ function Components() {
 
         </div>
         <div class="grid-container">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
+        <div class="grid-item">
+        <div className="inner-box" style={fontStyles}>
+        
+        <span style={iconStyles}><FaMicrosoft />  
+        </span> 
+            
+
+
+
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+        </div>
+        <div class="grid-item">
+        <div className="inner-box" style={fontStyles}>
+        <span style={iconStyles}><PiTimer />  
+        </span> 
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+        </div>
+        <div class="grid-item">
+        <div className="inner-box" style={fontStyles}>
+        <span style={iconStyles}><FaDraftingCompass />  
+        </span> 
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+        </div>
+        <div class="grid-item"> 
+         <div className="inner-box" style={fontStyles}>
+         <span style={iconStyles}><PiDownloadLight />  
+        </span> 
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+          </div>
+        <div class="grid-item">
+            <div className="inner-box" style={fontStyles}>
+            <span style={iconStyles}><RxNotionLogo />  
+        </span> 
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+          </div>
+        <div class="grid-item">
+        <div className="inner-box" style={fontStyles}>
+             <span style={iconStyles}><FaRegKeyboard />  
+        </span> 
+            <p>
+              Draggable Grid
+            </p>
+            <h3>
+              Make any set frammer component draggable
+            </h3>
+          </div>
+        </div>
 
       </div>
 
