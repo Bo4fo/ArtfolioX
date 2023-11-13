@@ -1,8 +1,8 @@
 import React from 'react'
 import '../Maincss/Blog.css';
 import { FaConnectdevelop, FaLinux } from "react-icons/fa";
-import { BsHdd} from "react-icons/bs";
-import { PiDiscordLogoLight} from "react-icons/pi";
+import { BsHdd } from "react-icons/bs";
+import { PiDiscordLogoLight } from "react-icons/pi";
 
 
 
@@ -38,14 +38,14 @@ function Blog() {
 
 
               <div className="inner-itemBlog">
-              <span style={iconStyles}><BsHdd />
+                <span style={iconStyles}><BsHdd />
                 </span>
-                
-                
+
+
               </div>
               <div className="inner-BlogBox">
-              <p style={fontStyles}>
-                  How to price freelance your web project and development service? 
+                <p style={fontStyles}>
+                  How to price freelance your web project and development service?
                 </p>
                 <div className="fade-date">November 12, 2023</div>
 
@@ -55,67 +55,67 @@ function Blog() {
             </div>
           </div>
           <div class="gridBlog-item">
-          <div className="inner-wrapperBlog">
+            <div className="inner-wrapperBlog">
 
 
-<div className="inner-itemBlog">
-<span style={iconStyles}><PiDiscordLogoLight />
-  </span>
-  
-  
-</div>
-<div className="inner-BlogBox">
-<p style={fontStyles}>
-    How to price freelance your web project and development service? 
-  </p>
-  <div className="fade-date">November 12, 2023</div>
+              <div className="inner-itemBlog">
+                <span style={iconStyles}><PiDiscordLogoLight />
+                </span>
+
+
+              </div>
+              <div className="inner-BlogBox">
+                <p style={fontStyles}>
+                  How to price freelance your web project and development service?
+                </p>
+                <div className="fade-date">November 12, 2023</div>
 
 
 
-</div>
-</div>
+              </div>
+            </div>
           </div>
           <div class="gridBlog-item">
-          <div className="inner-wrapperBlog">
+            <div className="inner-wrapperBlog">
 
 
-<div className="inner-itemBlog">
-<span style={iconStyles}><FaConnectdevelop />
-  </span>
-  
-  
-</div>
-<div className="inner-BlogBox">
-<p style={fontStyles}>
-    How to price freelance your web project and development service? 
-  </p>
-  <div className="fade-date">November 12, 2023</div>
+              <div className="inner-itemBlog">
+                <span style={iconStyles}><FaConnectdevelop />
+                </span>
+
+
+              </div>
+              <div className="inner-BlogBox">
+                <p style={fontStyles}>
+                  How to price freelance your web project and development service?
+                </p>
+                <div className="fade-date">November 12, 2023</div>
 
 
 
-</div>
-</div> </div>
+              </div>
+            </div> </div>
           <div class="gridBlog-item">
-          <div className="inner-wrapperBlog">
+            <div className="inner-wrapperBlog">
 
 
-<div className="inner-itemBlog">
-<span style={iconStyles}><FaLinux />
-  </span>
-  
-  
-</div>
-<div className="inner-BlogBox">
-<p style={fontStyles}>
-    How to price freelance your web project and development service? 
-  </p>
-  <div className="fade-date">November 12, 2023</div>
+              <div className="inner-itemBlog">
+                <span style={iconStyles}><FaLinux />
+                </span>
+
+
+              </div>
+              <div className="inner-BlogBox">
+                <p style={fontStyles}>
+                  How to price freelance your web project and development service?
+                </p>
+                <div className="fade-date">November 12, 2023</div>
 
 
 
-</div>
-</div>
- </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

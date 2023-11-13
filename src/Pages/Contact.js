@@ -1,8 +1,15 @@
 import React from 'react'
+import '../Maincss/Form-Contact.css';
 
 function Contact() {
   return (
-    <div>Contact</div>
+   
+    <div className='contact-wrapper'>
+        <div className='contact-box'>
+
+        </div>
+
+    </div>
   )
 }
 
