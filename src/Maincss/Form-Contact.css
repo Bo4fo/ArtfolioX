@@ -5,13 +5,46 @@
     top: 50px;
     background-color: #9b2d2d;
     flex-wrap: wrap;
-    align-items: center;
+ display: ;
     margin: 0 auto;
+    
+
+}
+
+.contact-box {
+    background-color: #1628ec;
+    padding: 30px;
+    width: auto;
+    height: auto;
    
 }
-.contact-box{
-    background-color: #1628ec;
-    padding: 30px ;
-    width: auto;
-    height: auto;   
+
+.headercontact-box {
+    min-width: min-content;
+    text-align: left;
+    color: #ffffff;
+    width: max-content;
+
+}
+
+.headercontact-box h3 {
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.textcontact-box {
+    background-color: #124a7b;
+    text-align: left;
+    font-size: 15px;
+    color: #ffffff;
+    width: 750px;
+    height: 50%;
+
+}
+.inner-contactForm{
+    background-color: aqua;
+}
+.gridform-contact{
+    
 }

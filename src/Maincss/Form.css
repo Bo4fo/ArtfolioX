@@ -1,11 +1,12 @@
 
 .contactform {
   margin: 0 auto;
-  padding: 20px;
+  padding: 90px;
   /* border: 1px solid #ccc; */
   border-radius: 5px;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
+  /* background-color: #111972; */
 }
 
 .gridform{
