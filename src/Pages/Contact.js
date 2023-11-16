@@ -1,86 +1,85 @@
 import React from 'react'
 import { useState } from 'react';
 import '../Maincss/Form-Contact.css';
+import { FaEnvelope, FaTwitter } from 'react-icons/fa';
 
 
 function Contact() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+    const [animate, setAnimate] = useState(false);
+    const handlePageClick = () => {
+      setAnimate(true);
 
-  const handleSubmit = (event) => {
-      event.preventDefault();
-      console.log(`The name you entered was: ${name}\nThe email you entered was: ${email}\nThe message you entered was: ${message}`);
-
-
-
-
-      
   };
 
- 
+
   return (
 
-    <div className='contact-wrapper'>
-      <div className='contact-box'>
-        <div className='headercontact-box'>
-          <h3>Get in touch</h3>
-          <div className="textcontact-box">
+     <div className={`contact-wrapper ${animate ? 'animate' : ''}`} onClick={handlePageClick}>
+      <div className={`contact-box ${animate ? 'animate' : ''}`}>
+        <div className={`headercontact-box ${animate ? 'animate' : ''}`}>
+          <h2>Get in touch</h2>
+          <div className={`textcontact-box ${animate ? 'animate' : ''}`}>
             <p>
-              Have a project in mind? Looking to partner or work together? Reach out through the form and I'll get back to you in the next 48 hours.</p>
+              Have a project in mind? Looking to partner or work together? Reach out through the form, and I'll get back to you in the next 48 hours.
+            </p>
           </div>
-          <div className="inner-contactForm">
-  <form onSubmit={handleSubmit} className="gridform-contact">
-    <div className='name-box mv-one'>
-      <label>
-        <input
-          placeholder=' Name'
-          type="text"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </label>
-    </div>
-
-    <div className='email-box mv-two'>
-      <label>
-        <input
-          placeholder=' Email'
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </label>
-    </div>
-
-    <div className='message-box mv-three'>
-      <label>
-        <textarea
-          placeholder='Message'
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-          rows={4} // Adjust the number of rows to control the height
-        />
-      </label>
-    </div>
-
-    <div className="formbtn">
-      <span className='btn-arrow'>
-        {/* <FaArrowRight/> */}
-      </span> 
-      <input type="submit" value="Send" />
-    </div>
-  </form>
-</div>
-
-
         </div>
-       
-</div>
 
-     
+        {/* Other sections go here */}
+        
+        <div className={`contact-container ${animate ? 'animate' : ''}`}>
+          <div className={`contact-item ${animate ? 'animate' : ''}`}>
+            <FaEnvelope className="logo" />
+            <span className="contact-info">philipboafo@gmail.com</span>
+          </div>
 
+          <div className={`contact-item ${animate ? 'animate' : ''}`}>
+            <FaTwitter className="logo" />
+            <span className="contact-info">Twitter DM</span>
+          </div>
+        </div>
+
+        <div className={`gridContact-container ${animate ? 'animate' : ''}`}>
+          <div className={`name-box gridContainer-item ${animate ? 'animate' : ''}`}>
+            <label>
+              <input
+                placeholder=' Name'
+                type="text"
+              />
+            </label>
+          </div>
+
+          <div className={`email-box gridContainer-item ${animate ? 'animate' : ''}`}>
+            <label>
+              <input
+                placeholder=' Email'
+                type="email"
+              />
+            </label>
+          </div>
+        </div>
+
+        <div className={`message-box ${animate ? 'animate' : ''}`}>
+          <label>
+            <textarea
+              placeholder='Message'
+            />
+          </label>
+        </div>
+
+        <div className={`formbtn ${animate ? 'animate' : ''}`}>
+          <span className='btn-arrow'>
+            {/* <FaArrowRight/> */}
+          </span>
+          <input type="submit" value="Send" />
+        </div>
+      </div>
     </div>
+ 
+
+
+
+
   )
 }
 

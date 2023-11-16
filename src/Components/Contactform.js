@@ -63,7 +63,8 @@ function ContactForm() {
                 <div className="formbtn">
                    <span className='btn-arrow'>
                    {/* <FaArrowRight/> */}
-                    </span> <input type="submit" value="Send" /> </div>
+                    </span> <input type="submit" value="Send" />
+                     </div>
             </form>
         </div>
     );
